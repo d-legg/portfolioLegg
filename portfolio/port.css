@@ -7,3 +7,38 @@ html, head, body{
 html{
     background-color: #fffdd0;
 }
+
+.projectContainer{
+    height: fit-content;
+    width: 100%;
+    font-family: "Kanit", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.projectTitle{
+    font-size: 4em;
+    color: #5D3DA8;
+    display: flex;
+    margin-left: 1rem;
+
+}
+
+.projectBody{
+    font-size: 2em;
+    color: #5D3DA8;
+    display: flex;
+    margin-left: 1rem;
+
+}
+
+.screenshot{
+    height: 100%;
+    width: 100%;
+}
+
+.imageContainer{
+    width: 90%;
+    margin: auto;
+}
